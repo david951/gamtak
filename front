@@ -1,0 +1,45 @@
+<html><head>
+    <title>Wolfram|Alpha: Computational Knowledge Engine</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">PRO</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="row ">
+    <div class="col-md-offset-2 col-md-8 nombre">
+        <div class="div-imagen ">  
+            <img src="./wolfram.png" id="imagen">
+        </div>
+        <div>
+            <label>Enter what you want to calculate or know about:</label>
+        </div>
+        <div class="input-group">
+          <input class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2" type="text">
+          <span class="input-group-addon" id="basic-addon2"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body></html>
